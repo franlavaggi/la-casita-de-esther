@@ -161,7 +161,7 @@
 
 /* Ataca a la seccion principal de adopciones*/
 .seccion-principal-adopciones {
-  margin: 0 5%;
+  margin: 1% 5%;
 }
 
 #adopciones-grid-container {
@@ -180,14 +180,14 @@
 }
 
 .seccion-principal {
-  margin: 2%;
+  margin: 1% 5%;
 }
 
 .donaciones-container {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 5%;
-  margin: 3% 2% 2% 2%;
+  margin: 5% 2% 2% 5%;
 }
 .donaciones-container .donaciones-item {
   place-items: center;
@@ -233,7 +233,7 @@ footer .footer-container .redes {
 
 /* Ataca a la seccion principal de tienda*/
 .seccion-principal-tienda {
-  margin: 0 5%;
+  margin: 1% 5%;
 }
 
 #tienda-grid-container {

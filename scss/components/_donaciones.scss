@@ -1,12 +1,12 @@
 .seccion-principal{
-    margin: 2%;
+    margin: 1% 5%;
 }
 
 .donaciones-container{
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 5%;
-    margin: 3% 2% 2% 2%;
+    margin: 5% 2% 2% 5%;
 
     .donaciones-item{
         place-items: center;
