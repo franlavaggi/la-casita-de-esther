@@ -1,0 +1,37 @@
+.seccion-principal{
+    margin: 2%;
+}
+
+.donaciones-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5%;
+    margin: 3% 2% 2% 2%;
+
+    .donaciones-item{
+        place-items: center;
+        text-align: center;
+        display: flex;
+        justify-content: flex-start;
+        margin: 1%;
+    }
+}
+
+.detalles-donaciones{
+    display: flex;
+    margin: 6% 2%;
+    flex-direction: column;
+
+    .explicacion-donaciones-container{
+        @extend %grid-config;
+    }
+}
+
+#objetivo-donaciones{
+    margin-right: 5%;
+}
+
+#img-donaciones{
+    width: 80%;
+}
+

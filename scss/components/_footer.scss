@@ -1,0 +1,18 @@
+footer {
+    background-color: nth($colors,3);
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 30px;
+
+    .footer-container{
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+        .redes{
+            height: 100%;
+        }
+    }
+}
+

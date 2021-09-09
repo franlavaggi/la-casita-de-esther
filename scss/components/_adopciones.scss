@@ -1,0 +1,27 @@
+/* Ataca a la seccion principal de adopciones*/
+.seccion-principal-adopciones{
+    margin: 0 5%;
+}
+
+#adopciones-grid-container{
+    @extend %grid-config;
+    grid-gap: 5%;
+    padding: 0 5%;
+}
+
+.adopciones-grid-item{
+    width: 100%;
+    height: 100%;
+    place-items: center;
+    text-align: center;
+}
+
+.adopciones-grid-item img{
+    width: 70%;
+    margin: 5%;
+}
+
+.adopciones-title{
+    margin-bottom: 0;
+}
+

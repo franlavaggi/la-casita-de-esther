@@ -1,0 +1,51 @@
+/* Estilo a los botones */
+.button{
+    color: nth($colors,4);
+    background-color: nth($colors,2);
+    font-size: 2rem;
+    text-decoration: none;
+    border-radius: 0.4rem;
+    font-weight: 400;
+    border-color: nth($colors,4);
+    /*margin: 20% 0;*/
+    padding: 10px;
+    border: 2px solid burlywood;
+    
+    &:hover{
+        color: nth($colors,9);
+        background-color: burlywood;
+    }
+}
+
+
+
+/* Estilo al botón principal de voluntariado*/
+#button-container-voluntariado{
+    display: flex;
+    justify-content: flex-end;
+    margin: 3%;
+}
+
+/* Estilo a los botones de la home page*/
+.home-button{
+    margin: 10% 0;
+}
+
+/* Ataca a los botones de la seccion adopciones*/
+.button-adopciones{
+    color: nth($colors,4);
+    background-color: nth($colors,2);
+    font-size: 1em;
+    text-decoration: none;
+    border-radius: 0.4rem;
+    font-weight: 400;
+    border-color: nth($colors,4);
+    margin: 5px 25px;
+    padding: 10px;
+    border: 2px solid burlywood;
+    
+    &:hover{
+    color: nth($colors,9);
+    background-color: burlywood;
+}
+}

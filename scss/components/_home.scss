@@ -1,0 +1,56 @@
+@import '../base/_sizes.scss';
+
+/*Estilo a la seccion principal de Home */
+.seccion-principal-home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0.2%;
+
+    /* Mixin que incluye configuraciones para la bg image*/
+    @include bg-image("https://i.postimg.cc/rw8G0V30/portada.jpg");
+
+    .h1-home{
+        color: nth($colors,2);
+        margin-top: 3%;
+        font-size: 2.5em;
+    }
+
+    /*Estilo a los botones de donar y adoptar de la home page*/
+    .buttons-container{
+        font-size: 1em;
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+}
+}
+
+/* Estilo a la section de quienes somos*/
+#quienes-somos{
+    width: 100%;
+}
+
+/* Estilo al contenedor de la foto y texto del quienes somos*/
+#presentacion-container{
+    margin: 0 2%;
+
+    /* Estilo al parrafo de quienes somos*/
+    #parrafo-presentacion {
+        font-size: 1.5rem;
+    }
+    /*Estilo a la imagen de quienes somos */
+    #foto-presentacion{
+        width: 100%;
+    }
+}
+
+/* Estilo al H2 del quienes somos */
+#title-quienes-somos{
+    display: flex;
+    justify-content: center;
+    font-size: 1.7rem;
+    margin: 3% 0;
+}

@@ -1,0 +1,338 @@
+:root{
+    font-size: 20px;
+
+    /* Defino algunos colores como variables segun la paleta del cliente*/
+    --main-color: #00C5C3;
+    --secondary-color: #FBD75A;
+    --third-color: #A8EECC;
+    --fourth-color: #4F5151;
+    --fifth-color: #F47769;
+    --sixth-color: #F1A29C;
+    --seventh-color: #F3F0F1;
+    --eighth-color: white;
+
+    /* Defino colores por mi cuenta*/
+    --nineth-color: #573D1C;
+    --tenth-color: #FFB4A2;
+    --eleventh-color: #3F8EFC;
+
+    /* Defino a la tipografia del cliente como principal */
+    font-family:'Questrial', sans-serif;
+
+    background-color: var(--eighth-color);
+}
+
+/* Ataca a los botones */
+.button{
+    color: var(--fourth-color);
+    background-color: var(--secondary-color);
+    font-size: 3em;
+    text-decoration: none;
+    border-radius: 0.4rem;
+    font-weight: 400;
+    border-color: var(--fourth-color);
+    margin: 5px 25px;
+    padding: 10px;
+    border: 2px solid burlywood;
+}
+
+.button:hover{
+    color: var(--nineth-color);
+    background-color: burlywood;
+}
+
+/* Ataca al contenedor de la barra de navegacion*/
+.menu-container{
+    background-color: var(--tenth-color);
+    border-radius: 15px;
+    height: 12vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* Ataca al ul correspondiente al menú */
+.menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Ataca a los elementos del ul de la barra de navegación*/
+nav ul li{
+    list-style-type: none;
+    margin: 5px 25px;
+}
+
+/* Ataca a los links de la barra de navegacion*/
+nav ul li a{
+    background-color: var(--secondary-color);
+    font-size: 1.1em;
+    text-decoration: none;
+    color: var(--fourth-color);
+    border-radius: 1rem;
+    padding: 7px;
+    border: 1px solid burlywood;
+}
+
+/* Ataca a los botones de la barra de navegacion cuando son seleccionados con el cursor*/
+nav ul li a:hover{
+    color: var(--nineth-color);
+    background-color: burlywood;
+}
+
+/*Ataca al logo de la barra de navegacion*/
+#logo{
+    position: relative;
+    height: 400%;
+    right: 35%;
+    bottom: 100%;
+    z-index: 1;
+}
+
+/* ----------Footer ------------*/
+footer {
+    background-color: var(--tenth-color);
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    height: 35px;
+}
+
+.redes{
+    height: 100%;
+}
+/*------------Fin footer ------------- */
+
+/*Ataca a las imagenes de portada de las diferentes paginas*/
+.portada{
+    width: 100%;
+    border-radius: 15px;
+}
+
+/*Ataca a la imagen de quienes somos */
+#foto-presentacion{
+    width: 45%;
+}
+
+
+/*Ataca a las secciones principales de cada pagina */
+.seccion-principal-home{
+    width: 100%;
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 0.2%;
+}
+
+
+/*Ataca a los botones de donar y adoptar de la home page*/
+.buttons-container{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    left: 75%;
+    top: 12%;
+    justify-content: space-between;
+    height: 20%;
+}
+
+/* Ataca a la section de quienes somos*/
+#quienes-somos{
+    width: 100%;
+}
+
+/* Ataca al contenedor de la foto y texto del quienes somos*/
+#presentacion-container{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Ataca solo al texto del quienes somos */
+#parrafo-presentacion {
+    margin-left: 20%;
+    font-size: 1.5rem;
+}
+
+/* Ataca al H2 del quienes somos */
+#title-quienes-somos{
+    display: flex;
+    justify-content: center;
+    font-size: 1.7rem;
+}
+/*-------------- Home ------------------*/
+
+/*-------------- Voluntariado ------------------*/
+/* Ataca a la seccion principal de voluntariado*/
+.seccion-principal-voluntariado{
+    position: relative;
+    margin-top: 0.2%;
+}
+
+/* Ataca al titulo y texto de la seccion ppal de voluntariado*/
+#title-voluntariado-container{
+    width: 20%;
+    position: absolute;
+    bottom: 55%;
+    left: 5%;
+    font-size: 1.9em;
+    color: var(--secondary-color);
+}
+.requisitos-voluntariado{
+    display: flex;
+    justify-content: center;
+}
+
+/* Ataca al texto de la seccion ppal de voluntariado */
+#texto-principal-voluntariado{
+    color: var(--fiveth-color);
+    font-size: 0.9em;
+}
+
+/* Ataca al botón principal de voluntariado*/
+#button-container-voluntariado{
+    position: absolute;
+    bottom: 20%;
+    right: 0;
+    font-size: 0.5em;
+}
+/*-------------- Fin voluntariado ------------------*/
+
+/*-------------- Tienda ------------------*/
+/* Ataca a la seccion principal de tienda*/
+.seccion-principal-tienda{
+    margin: 0 5%;
+}
+
+/*Ataca a todas las imagenes de la tienda */
+.img-tienda{
+    width: 35%;
+}
+
+#tienda-grid-container{
+    display:grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5%;
+    padding: 0 5%;
+}
+
+.tienda-grid-item{
+    width: 100%;
+    height: 100%;
+}
+
+#tienda-grid-container div{
+    place-items: center;
+    text-align: center;
+}
+/*-------------- Fin tienda ------------------*/
+
+.donaciones-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5%;
+}
+
+.donaciones-item{
+    place-items: center;
+    text-align: center;
+}
+
+.detalles-donaciones{
+    display: flex;
+    margin: 0 5%;
+}
+
+#objetivo-donaciones{
+    margin-right: 5%;
+}
+
+#img-donaciones{
+    width: 25%;
+}
+/*-------------- Adopciones ------------------*/
+/* Ataca a la seccion principal de adopciones*/
+.seccion-principal-adopciones{
+    margin: 0 5%;
+}
+
+#adopciones-grid-container{
+    display:grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5%;
+    padding: 0 5%;
+}
+
+.adopciones-grid-item{
+    width: 100%;
+    height: 100%;
+    place-items: center;
+    text-align: center;
+}
+
+.adopciones-grid-item img{
+    width: 70%;
+    margin: 5%;
+}
+
+.adopciones-title{
+    margin-bottom: 0;
+}
+
+/* Ataca a los botones de la seccion adopciones*/
+.button-adopciones{
+    color: var(--fourth-color);
+    background-color: var(--secondary-color);
+    font-size: 1em;
+    text-decoration: none;
+    border-radius: 0.4rem;
+    font-weight: 400;
+    border-color: var(--fourth-color);
+    margin: 5px 25px;
+    padding: 10px;
+    border: 2px solid burlywood;
+}
+
+.button-adopciones:hover{
+    color: var(--nineth-color);
+    background-color: burlywood;
+}
+/*----------- Fin adopciones -------------*/
+
+/*------------Animacion de PAW --------------------*/
+
+.paw{
+    height: 100%;
+    transition-duration: 3s;
+}
+
+.paw:hover{
+    transform: rotate(1800deg);
+}
+/* ---------- Media Queries ------------*/
+
+/*----------- Formulario Voluntariado ---------*/
+.logo-form{
+    width: 15%;
+}
+
+/*------------ Fin formulario voluntariado -------/*
+
+/* Tablets */
+@media (max-width: 768px) and (min-width:425px){
+:root{
+    font-size: 15px;
+}
+}
+
+/* Smartphones */
+@media (max-width: 424px){
+:root{
+    font-size:10px;
+}
+}
