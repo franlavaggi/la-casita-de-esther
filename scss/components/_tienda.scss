@@ -4,20 +4,16 @@
 }
 
 #tienda-grid-container{
-    /*@extend %grid-config;
-    grid-gap: 5%;*/
     padding: 0 5%; 
 
     .tienda-grid-item{
-        width: 100%;
-        height: 100%;
         place-items: center;
         text-align: center;
-
+        
         /*Ataca a todas las imagenes de la tienda */
         .img-tienda{
         width: 35%;
-}
+        }
     }
 }
 
