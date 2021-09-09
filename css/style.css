@@ -5,7 +5,7 @@
   background-color: white;
 }
 
-.detalles-donaciones .explicacion-donaciones-container, #adopciones-grid-container {
+.detalles-donaciones .explicacion-donaciones-container {
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -165,24 +165,18 @@
 }
 
 #adopciones-grid-container {
-  grid-gap: 5%;
-  padding: 0 5%;
+  margin: 0 5%;
 }
-
-.adopciones-grid-item {
-  width: 100%;
-  height: 100%;
+#adopciones-grid-container .adopciones-grid-item {
   place-items: center;
   text-align: center;
 }
-
-.adopciones-grid-item img {
+#adopciones-grid-container .adopciones-grid-item .adopciones-title {
+  margin: 0;
+}
+#adopciones-grid-container .adopciones-grid-item .img-adopciones {
   width: 70%;
   margin: 5%;
-}
-
-.adopciones-title {
-  margin-bottom: 0;
 }
 
 .seccion-principal {
