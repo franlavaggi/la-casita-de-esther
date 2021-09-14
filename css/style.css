@@ -182,23 +182,19 @@
   margin: 1% 5%;
 }
 
-.donaciones-container {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 5%;
-  margin: 5% 2% 2% 5%;
+.donaciones {
+  margin: 1% 5%;
 }
-.donaciones-container .donaciones-item {
+.donaciones .donaciones-item {
   place-items: center;
-  text-align: center;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-evenly;
   margin: 1%;
 }
 
 .detalles-donaciones {
   display: flex;
-  margin: 6% 2%;
+  margin: 1% 5%;
   flex-direction: column;
 }
 #objetivo-donaciones {
