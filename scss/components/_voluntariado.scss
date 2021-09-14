@@ -32,7 +32,6 @@
     display: flex;
     justify-content: center;
     margin: 4%;
-    border: dashed nth($colors,5);
-    padding: 3%;
+    @extend %dashed-border;
 }
 

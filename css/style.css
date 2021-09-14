@@ -11,6 +11,12 @@
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
+.requisitos-voluntariado, .detalles-donaciones, .donaciones {
+  border: dashed #F47769;
+  border-radius: 2rem;
+  padding: 1%;
+}
+
 /*Estilo a la seccion principal de Home */
 .seccion-principal-home {
   width: 100%;
@@ -61,7 +67,7 @@
   display: flex;
   justify-content: center;
   font-size: 1.7rem;
-  margin: 3% 0;
+  margin: 3% 30%;
 }
 
 /* Estilo a los botones */
@@ -183,7 +189,7 @@
 }
 
 .seccion-principal {
-  margin: 2% 5%;
+  margin: 1% 5%;
 }
 
 .donaciones {
@@ -281,8 +287,6 @@ footer .footer-container .redes {
   display: flex;
   justify-content: center;
   margin: 4%;
-  border: dashed #F47769;
-  padding: 3%;
 }
 
 /*# sourceMappingURL=style.css.map */

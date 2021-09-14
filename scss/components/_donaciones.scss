@@ -1,9 +1,10 @@
 .seccion-principal{
-    margin: 2% 5%;
+    margin: 1% 5%;
 }
 
 .donaciones{
     margin: 2% 5%;
+    @extend %dashed-border;
 
     .donaciones-item{
         place-items: center;
@@ -17,6 +18,8 @@
     display: flex;
     margin: 2% 5%;
     flex-direction: column;
+    @extend %dashed-border;
+
 
     .explicacion-donaciones-container{
         @extend %grid-config;

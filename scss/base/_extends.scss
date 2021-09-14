@@ -3,3 +3,9 @@
     grid-template-rows: 1fr;
     grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
 }
+
+%dashed-border{
+    border: dashed nth($colors,5);
+    border-radius: 2rem;
+    padding: 1%;
+}
