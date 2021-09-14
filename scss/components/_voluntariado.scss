@@ -32,6 +32,7 @@
     display: flex;
     justify-content: center;
     margin: 4%;
+    /*Extend que suma el estilo del borde punteado*/
     @extend %dashed-border;
 }
 

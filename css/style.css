@@ -5,12 +5,14 @@
   background-color: white;
 }
 
+/* Extend que configura grids sin bootstrap*/
 .detalles-donaciones .explicacion-donaciones-container {
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
+/* Extend que marca el estilo del borde punteado*/
 .requisitos-voluntariado, .detalles-donaciones, .donaciones {
   border: dashed #F47769;
   border-radius: 2rem;
@@ -160,6 +162,7 @@
   transform: scale(1.3);
 }
 
+/*Estilos a la "patita"*/
 #paw {
   height: 100%;
   transition-duration: 3s;
@@ -192,6 +195,7 @@
   margin: 1% 5%;
 }
 
+/* Estilos a la seccion con los botones para donar*/
 .donaciones {
   margin: 2% 5%;
 }
@@ -202,6 +206,7 @@
   margin: 1%;
 }
 
+/* Estilos a la seccion con parrafo y video sobre donaciones*/
 .detalles-donaciones {
   display: flex;
   margin: 2% 5%;
@@ -287,6 +292,7 @@ footer .footer-container .redes {
   display: flex;
   justify-content: center;
   margin: 4%;
+  /*Extend que suma el estilo del borde punteado*/
 }
 
 /*# sourceMappingURL=style.css.map */

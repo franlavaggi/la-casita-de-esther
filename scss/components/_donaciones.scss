@@ -2,6 +2,7 @@
     margin: 1% 5%;
 }
 
+/* Estilos a la seccion con los botones para donar*/
 .donaciones{
     margin: 2% 5%;
     @extend %dashed-border;
@@ -14,12 +15,12 @@
     }
 }
 
+/* Estilos a la seccion con parrafo y video sobre donaciones*/
 .detalles-donaciones{
     display: flex;
     margin: 2% 5%;
     flex-direction: column;
     @extend %dashed-border;
-
 
     .explicacion-donaciones-container{
         @extend %grid-config;
@@ -29,7 +30,6 @@
         }
     }
 }
-
 
 #vid-donaciones{
     width: 80%;
