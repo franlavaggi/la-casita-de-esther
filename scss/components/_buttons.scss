@@ -2,12 +2,11 @@
 .button{
     color: nth($colors,4);
     background-color: nth($colors,2);
-    font-size: 2rem;
+    font-size: 2em;
     text-decoration: none;
     border-radius: 0.4rem;
-    font-weight: 400;
     border-color: nth($colors,4);
-    /*margin: 20% 0;*/
+    margin: 15% 0;
     padding: 10px;
     border: 2px solid burlywood;
     
@@ -16,8 +15,6 @@
         background-color: burlywood;
     }
 }
-
-
 
 /* Estilo al botón principal de voluntariado*/
 #button-container-voluntariado{
