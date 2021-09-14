@@ -183,11 +183,11 @@
 }
 
 .seccion-principal {
-  margin: 1% 5%;
+  margin: 2% 5%;
 }
 
 .donaciones {
-  margin: 1% 5%;
+  margin: 2% 5%;
 }
 .donaciones .donaciones-item {
   place-items: center;
@@ -198,14 +198,14 @@
 
 .detalles-donaciones {
   display: flex;
-  margin: 1% 5%;
+  margin: 2% 5%;
   flex-direction: column;
 }
-#objetivo-donaciones {
+.detalles-donaciones .explicacion-donaciones-container #objetivo-donaciones {
   margin-right: 5%;
 }
 
-#img-donaciones {
+#vid-donaciones {
   width: 80%;
 }
 

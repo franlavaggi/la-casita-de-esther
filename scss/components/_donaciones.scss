@@ -1,9 +1,9 @@
 .seccion-principal{
-    margin: 1% 5%;
+    margin: 2% 5%;
 }
 
 .donaciones{
-    margin: 1% 5%;
+    margin: 2% 5%;
 
     .donaciones-item{
         place-items: center;
@@ -15,19 +15,20 @@
 
 .detalles-donaciones{
     display: flex;
-    margin: 1% 5%;
+    margin: 2% 5%;
     flex-direction: column;
 
     .explicacion-donaciones-container{
         @extend %grid-config;
+        
+        #objetivo-donaciones{
+            margin-right: 5%;
+        }
     }
 }
 
-#objetivo-donaciones{
-    margin-right: 5%;
-}
 
-#img-donaciones{
+#vid-donaciones{
     width: 80%;
 }
 
