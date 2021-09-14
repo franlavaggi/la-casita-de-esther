@@ -20,7 +20,6 @@
         flex-direction: column;
         margin: 2%;
 
-
         /* Estilo al texto de la seccion ppal de voluntariado */
         #texto-principal-voluntariado{
             color: nth($colors,2);
@@ -32,6 +31,8 @@
 .requisitos-voluntariado{
     display: flex;
     justify-content: center;
-    margin-top: 5%;
+    margin: 4%;
+    border: dashed nth($colors,5);
+    padding: 3%;
 }
 

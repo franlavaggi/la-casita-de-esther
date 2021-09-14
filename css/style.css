@@ -280,7 +280,9 @@ footer .footer-container .redes {
 .requisitos-voluntariado {
   display: flex;
   justify-content: center;
-  margin-top: 5%;
+  margin: 4%;
+  border: dashed #F47769;
+  padding: 3%;
 }
 
 /*# sourceMappingURL=style.css.map */
