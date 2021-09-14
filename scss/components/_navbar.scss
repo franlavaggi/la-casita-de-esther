@@ -37,6 +37,10 @@
 /*Ataca al logo de la barra de navegacion*/
 #logo{
     width: 6rem;
+    transition-duration: 1s;
+    &:hover{
+        transform: scale(1.3);
+    }
 }
 
 
