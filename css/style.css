@@ -13,7 +13,7 @@
 }
 
 /* Extend que marca el estilo del borde punteado*/
-.requisitos-voluntariado, .detalles-donaciones, .donaciones {
+.requisitos-voluntariado, #tienda-grid-container .tienda-grid-item, .detalles-donaciones, .donaciones {
   border: dashed #F47769;
   border-radius: 2rem;
   padding: 1%;
@@ -246,7 +246,8 @@ footer .footer-container .redes {
 }
 
 #tienda-grid-container {
-  padding: 0 5%;
+  /*padding: 3% 5%;
+  margin: 0 5%;*/
 }
 #tienda-grid-container .tienda-grid-item {
   place-items: center;

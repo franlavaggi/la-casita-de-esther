@@ -4,12 +4,14 @@
 }
 
 #tienda-grid-container{
-    padding: 0 5%; 
+    /*padding: 3% 5%;
+    margin: 0 5%;*/
 
     .tienda-grid-item{
         place-items: center;
         text-align: center;
-        
+        @extend %dashed-border;
+
         /*Ataca a todas las imagenes de la tienda */
         .img-tienda{
         width: 35%;
